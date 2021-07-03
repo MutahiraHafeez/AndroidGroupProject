@@ -17,7 +17,7 @@ PDFView pdfView;
         String getitem=getIntent().getStringExtra("filename");
         if(getitem.equals("Surah Kahf"))
         {
-            pdfView.fromAsset("Surah-Kahf-in-Arabic.pdf").load();
+            pdfView.fromAsset("Surah-Kahf-in-Arabic").load();
         }
         else if(getitem.equals("Sural Mulk"))
         {
